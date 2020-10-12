@@ -1,0 +1,7 @@
+werkzeug
+flask
+gunicorn
+flask-restful
+requests
+iptools
+geoip2
